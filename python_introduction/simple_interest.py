@@ -6,4 +6,4 @@ Interest = principal * rate * time
 
 answer = "The simple interest is: "
 
-print(answer + Interest)
+print(answer + [Interest])
