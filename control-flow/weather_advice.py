@@ -10,3 +10,5 @@ elif weather == "cold":
     print("Wear a t-shirt and glasses.")
 else:
     print("Sorry, I don't have any recommendations for this weather.")
+
+print(weather)
