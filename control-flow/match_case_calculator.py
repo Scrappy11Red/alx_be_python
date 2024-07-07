@@ -1,7 +1,7 @@
 #Variables that prompt users to enter three pieces of information.
 num1 = input("Enter the first number: ")
 num2 = input("Enter the second number: ")
-operand = input("+, -, *, /: ")
+operand = input("Choose the operation(+, -, *, /): ")
 
 #Match, case allows the user to do a calculation.
 match operand: 
