@@ -1,10 +1,10 @@
 #Variables that prompt users to enter three pieces of information.
 num1 = input("Enter the first number: ")
 num2 = input("Enter the second number: ")
-operand = str(input("Choose the operation (+, -, *, /):"))
+operation = str(input("Choose the operation (+, -, *, /):"))
 
 #Match, case allows the user to do a calculation.
-match operand: 
+match operation: 
     case "+":
         result = num1 + num2
         print(f"The result is {result}.")
