@@ -1,5 +1,5 @@
 #To Prompt user to enter number.
-number = int(input("Enter a number to see it's multiplication table: "))
+number = int(input("Enter a number to see its multiplication table:"))
 
 #To generate and print mult table.
 for i in range(1, 11):
