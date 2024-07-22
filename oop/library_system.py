@@ -1,12 +1,13 @@
 class Book:
-    def __init__(self, title: str, author: str):
+    def __init__(self, title, author):
         self.title = title
         self.author = author
-        return f"Book: {self.title} by {self.author}"
     
     def __str__(self):
         return f"{self.title} by {self.author}"
 
+book1 = Book("Book: Pride and Prejudice", "Jane Austen")
+print (book1)
 
 class EBook(Book):
     def __init__(self, title, author, file_size: int):
